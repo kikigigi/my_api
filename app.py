@@ -24,7 +24,6 @@ api.add_resource(UserRegister, '/register')
 api.add_resource(Store, '/store/<string:name>')
 api.add_resource(Stores, '/stores')
 
-server = app.server ### added
 
 if __name__ == '__main__':
     from db import db
